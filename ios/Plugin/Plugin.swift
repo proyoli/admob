@@ -104,7 +104,7 @@ public class AdMob: CAPPlugin {
      *  https://developers.google.com/ad-manager/mobile-ads-sdk/ios/rewarded-ads?hl=ja
      */
     @objc func prepareRewardVideoAd(_ call: CAPPluginCall) {
-        let adUnitID = getAdId(call, "ca-app-pub-3940256099942544/1712485313")
+        let adUnitID = getAdId(call, "ca-app-pub-3940256099942544/5224354917")
         let request = self.GADRequestWithOption(call.getBool("npa") ?? false)
 
         DispatchQueue.main.async {
